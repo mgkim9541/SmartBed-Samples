@@ -1,11 +1,7 @@
-# ESWA Code Sample
-
-This repository contains cleaned and modularized Python code originally developed in the **`ESWA_code sample.ipynb`** notebook.  
-The goal is to provide a reproducible workflow that:
-
+# Code Sample
 1. Loads the provided *Sample Data*.
 2. Preprocesses the data.
-3. Trains and evaluates the machine‑learning models described in the ESWA manuscript.
+3. Trains and evaluates the machine‑learning models described in the manuscript.
 
 ---
 
@@ -15,13 +11,11 @@ The goal is to provide a reproducible workflow that:
 .
 ├── data/
 │   └── Sample Data.csv      # anonymised sample dataset (small, public)
-├── eswa/
+├── Codes/
 │   └── __init__.py
 │   └── preprocessing.py     # functions for data cleaning / feature engineering
 │   └── models.py            # model definitions & training loops
 │   └── evaluate.py          # metrics & visualisation utilities
-├── notebooks/
-│   └── ESWA_code sample.ipynb  # original (un‑edited) notebook
 ├── scripts/
 │   └── run_pipeline.py      # single‑entry script – `python scripts/run_pipeline.py`
 ├── tests/
@@ -29,17 +23,14 @@ The goal is to provide a reproducible workflow that:
 ├── requirements.txt
 └── README.md
 ```
-
-Feel free to rename or rearrange as you see fit – the key point is to **separate reusable library code (`eswa/`) from orchestration scripts (`scripts/`) and experiments (`notebooks/`)**.
-
 ---
 
 ## Quick‑start
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your‑username>/eswa‑sample.git
-cd eswa‑sample
+git clone https://github.com/mgkim9541/SmartBed‑Samples.git
+cd SmartBed‑Samples
 
 # 2. Create environment (conda or venv)
 python3 -m venv .venv
@@ -81,17 +72,6 @@ tqdm
 plotly
 requests
 multiSmote   # if you cannot install, comment out in preprocessing.py
-```
-
----
-
-## Reproducing the original notebook
-
-If you prefer Jupyter:
-
-```bash
-jupyter lab
-# open notebooks/ESWA_code sample.ipynb
 ```
 
 ---
