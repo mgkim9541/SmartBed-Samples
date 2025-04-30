@@ -76,21 +76,14 @@ multiSmote   # if you cannot install, comment out in preprocessing.py
 
 ---
 
-## License
-
-Specify the license for your code (e.g., MIT).  
-Add a `LICENSE` file before pushing.
-
----
-
 ## How to cite
 
 If this code accompanies a paper, include the citation here.
 
 ```
 @article{Your2025Paper,
-  title   = {Title},
-  author  = {Your Name},
+  title   = {Participatory Design of Autonomous AI-based Healthcare IS: Evidence with a Novel Smart Medical Bed Using Deep Learning},
+  author  = {Francis Joseph Costello, Min-Gyeong Kim, Cheong Kim},
   journal = {Expert Systems With Applications},
   year    = {2025}
 }
