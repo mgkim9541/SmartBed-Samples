@@ -40,7 +40,7 @@ source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 # 4. Run the full pipeline
-python scripts/run_pipeline.py --data ./data/Sample\ Data.csv
+python scripts/run_pipeline.py --data ./data/Sample Data.csv
 ```
 
 The `run_pipeline.py` script loads the CSV, performs preprocessing, trains the model(s), and prints evaluation metrics.  
