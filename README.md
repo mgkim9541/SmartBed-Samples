@@ -9,17 +9,13 @@
 
 ```
 .
+├── run_pipeline.py                  
 ├── data/
-│   └── Sample Data.csv      # anonymised sample dataset (small, public)
-├── Codes/
-│   └── __init__.py
-│   └── preprocessing.py     # functions for data cleaning / feature engineering
-│   └── models.py            # model definitions & training loops
-│   └── evaluate.py          # metrics & visualisation utilities
-├── scripts/
-│   └── run_pipeline.py      # single‑entry script – `python scripts/run_pipeline.py`
-├── tests/
-│   └── test_preprocessing.py
+│   └── Sample Data.csv              
+└── src/
+    ├── model.py                     
+    ├── preprocess.py                
+    └── train_and_eval.py            
 ├── requirements.txt
 └── README.md
 ```
