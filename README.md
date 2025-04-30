@@ -38,3 +38,18 @@ python run_pipeline.py
 - Make sure `Sample Data.csv` follows the format:
   - Features: 160 columns
   - Labels: `Pos` and `Com` columns (one-hot encoded internally)
+
+---
+
+## How to cite
+
+If this code accompanies a paper, include the citation here.
+
+```
+@article{Your2025Paper,
+  title   = {Participatory Design of Autonomous AI-based Healthcare IS: Evidence with a Novel Smart Medical Bed Using Deep Learning},
+  author  = {Francis Joseph Costello, Min-Gyeong Kim, Cheong Kim},
+  journal = {Expert Systems With Applications},
+  year    = {2025}
+}
+```
