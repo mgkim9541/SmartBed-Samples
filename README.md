@@ -1,6 +1,6 @@
 # CNN-LSTM Multi-Output Classification
 
-This project implements a hybrid CNN-LSTM model that predicts two output labels (`posture` and `comfort`) from sensor-based input data.
+This project is the source code and sample data for the paper titled _Participatory Design of Autonomous AI-based Healthcare IS: Evidence with a Novel Smart Medical Bed Using Deep Learning_ under review at ESWA which implements a hybrid CNN-LSTM model that predicts two output labels (`posture` and `comfort`) from sensor-based input data.
 
 ## 🧩 Project Structure
 
