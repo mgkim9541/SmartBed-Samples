@@ -46,10 +46,10 @@ python run_pipeline.py
 If this code accompanies a paper, include the citation here.
 
 ```
-@article{Your2025Paper,
+@article{Research article,
   title   = {Participatory Design of Autonomous AI-based Healthcare IS: Evidence with a Novel Smart Medical Bed Using Deep Learning},
-  author  = {Francis Joseph Costello, Min-Gyeong Kim, Cheong Kim},
-  journal = {Expert Systems With Applications},
+  author  = {Min-Gyeong Kim, Francis Joseph Costello, Cheong Kim},
+  journal = {},
   year    = {2025}
 }
 ```
